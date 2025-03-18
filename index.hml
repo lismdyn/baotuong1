@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Văn Ngày Quốc Tế Phụ Nữ 8/3</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .navbar {
+            background-color: #ff1493;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .navbar a:hover {
+            background-color: #ff69b4;
+        }
+        .container {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ff1493;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+            background-color: #ffe6f2;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .poem, .story {
+            background-color: #ffcccb;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .poem h4, .story h4 {
+            font-size: 1.5rem;
+            color: #ff1493;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .flower-img {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .bottom-text {
+            margin-top: 20px;
+            font-style: italic;
+            font-size: 1rem;
+            text-align: center;
+            color: #888;
+        }
+        .highlight {
+            animation: blink 1s infinite alternate;
+            border: 3px solid yellow;
+        }
+        @keyframes blink {
+            from { opacity: 1; }
+            to { opacity: 0.3; }
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ff1493;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#chuc">Lời Chúc</a>
+        <a href="#tho">Thơ</a>
+        <a href="#truyen">Truyện Ngắn</a>
+    </div>
+    <div class="container">
+        <h1>Chúc Mừng Ngày Quốc Tế Phụ Nữ 8/3!</h1>
+        <p id="chuc">
+            Nhân ngày Quốc tế Phụ nữ 8/3, xin gửi đến bà, mẹ, chị, em và tất cả những người phụ nữ trong gia đình mình những lời chúc yêu thương nhất. 
+            Chúc mọi người luôn mạnh khỏe, hạnh phúc và thành công trong cuộc sống. Cảm ơn vì đã luôn là chỗ dựa vững chắc, là ngọn lửa yêu thương sưởi ấm gia đình ta. 
+            Mong rằng mỗi ngày trôi qua đều ngập tràn tiếng cười, niềm vui và những khoảnh khắc đáng nhớ. Yêu thương và trân trọng mọi người thật nhiều! ❤️
+        </p>
+        <div class="poem" id="tho">
+            <h4>**Chúc Mừng Ngày 8/3**</h4>
+            <p>
+                Ngày hôm nay thật diệu kỳ,<br>
+                Chúc cho phụ nữ tràn trề niềm vui.<br>
+                Nụ cười rạng rỡ trên môi,<br>
+                Ngập tràn hạnh phúc, rạng ngời thắm tươi.<br><br>
+                Bà là ánh sáng rạng ngời,<br>
+                Dìu con khôn lớn giữa đời thăng trầm.<br>
+                Mẹ là ngọn gió dịu êm,<br>
+                Vỗ về con trẻ suốt đêm bao ngày.<br><br>
+                Chị là người bạn nắm tay,<br>
+                Chia sẻ buồn vui tháng ngày bên nhau.<br>
+                Em là nụ thắm muôn màu,<br>
+                Xinh tươi rạng rỡ như sao sáng ngời.<br><br>
+                Chúc người phụ nữ đời tôi,<br>
+                Mãi luôn hạnh phúc, rạng ngời niềm tin.<br>
+                8/3 đến lung linh,<br>
+                Trao nhau yêu mến — trọn tình thiết tha. 🌸
+            </p>
+        </div>
+        <img class="flower-img" src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2023/3/7/loi-chuc-ngay-quoc-te-phu-nu-8-3-8-16781604647651073705675.jpg" alt="Hoa đẹp chúc mừng ngày 8/3">
+        <div class="story" id="truyen">
+            <h4>**Vết Sẹo Của Mẹ**</h4>
+            <p>
+            Ngày 8 tháng 3 hàng năm là một dịp đặc biệt để tôn vinh những người phụ nữ trong cuộc sống của chúng ta. Đây là Ngày Quốc tế Phụ nữ, một ngày để tất cả chúng ta bày tỏ lòng biết ơn và sự trân trọng đối với những người mẹ, người bà, người chị, người em, và tất cả những người phụ nữ đang góp phần làm cho thế giới này trở nên tươi đẹp hơn.
+
+Phụ nữ là những người mang trong mình một sức mạnh kỳ diệu, họ là những người chăm sóc, nuôi dưỡng và yêu thương không ngừng nghỉ. Những bà mẹ hy sinh thầm lặng để con cái có thể khôn lớn, những người chị, người em luôn là chỗ dựa vững chắc trong gia đình, và những người phụ nữ ngoài xã hội không ngừng cố gắng cống hiến cho gia đình, công việc và cộng đồng. Chính nhờ sự kiên cường, tận tụy và yêu thương ấy, thế giới này trở nên đẹp đẽ hơn từng ngày.
+
+Ngày 8/3 là dịp để chúng ta nhìn lại những đóng góp vô giá của phụ nữ. Mỗi người phụ nữ đều có những câu chuyện riêng, những khoảnh khắc đáng nhớ trong cuộc sống mà chỉ có họ mới có thể cảm nhận sâu sắc. Họ là những người luôn đứng sau mọi thành công, là những người lặng lẽ hy sinh vì gia đình, vì xã hội mà không bao giờ yêu cầu sự đền đáp. Những nụ cười tươi tắn, những ánh mắt trìu mến, những lời động viên ân cần của họ chính là động lực giúp chúng ta vượt qua những khó khăn trong cuộc sống.
+
+Tôi nghĩ rằng không chỉ ngày 8/3, mà mọi ngày trong năm đều là cơ hội để chúng ta thể hiện tình yêu thương và sự biết ơn đối với phụ nữ. Đôi khi, một lời chúc tốt đẹp, một cử chỉ quan tâm nhẹ nhàng hay một lời cảm ơn từ trái tim cũng đủ làm họ cảm thấy hạnh phúc. Hãy nhớ rằng, phụ nữ xứng đáng nhận được tất cả những gì tốt đẹp nhất từ cuộc sống.
+
+Ngày Quốc tế Phụ nữ 8/3 không chỉ là ngày để dành tặng hoa, quà, hay những lời chúc mừng. Đó còn là một dịp để chúng ta tôn vinh phẩm giá, quyền lợi và sự bình đẳng của phụ nữ trong mọi lĩnh vực của đời sống. Phụ nữ không chỉ xứng đáng được yêu thương, mà họ còn xứng đáng được đối xử công bằng và tôn trọng trong xã hội.
+
+Cảm ơn những người phụ nữ tuyệt vời trong cuộc đời chúng ta, nhờ có các bạn mà cuộc sống trở nên ấm áp, đầy yêu thương và ý nghĩa. Ngày 8/3 là dịp để chúng ta bày tỏ lòng biết ơn ấy, nhưng cũng là cơ hội để mỗi người phụ nữ được nhận lại tình yêu và sự trân trọng mà họ xứng đáng có.
+
+Chúc cho tất cả các bà, các mẹ, các chị em phụ nữ trên toàn thế giới một ngày 8/3 thật hạnh phúc, vui vẻ và đầy ý nghĩa. Mong rằng mỗi ngày, phụ nữ sẽ luôn được yêu thương và tôn trọng như những đóa hoa đẹp nhất trong vườn hoa của cuộc đời.                
+            </p>
+        </div>
+        <p class="bottom-text">"Phụ nữ chính là bông hoa đẹp nhất trong vườn hoa cuộc đời." 🌸</p>
+    </div>
+    <button class="back-to-top" onclick="scrollToTop()">⬆️</button>
+</body>
+</html>
